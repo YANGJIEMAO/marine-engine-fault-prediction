@@ -218,3 +218,45 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# Local Python environment
+# ============================================================
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ============================================================
+# Original dataset
+# 数据集不直接上传GitHub，README中提供Zenodo链接
+# ============================================================
+data/libiary/
+
+# ============================================================
+# Temporary / local files
+# ============================================================
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Large serialized files
+*.pkl
+*.joblib
